@@ -46,6 +46,7 @@ object DStreams {
 
     // action
     // you can also write dstream as a textfile, .saveAsTextFile(path)
+    // each folder is a RDD = batch, each file = a partition
     wordStream.print()
 
     ssc.start()

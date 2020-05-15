@@ -33,5 +33,4 @@ object SparkObject extends App {
     expr("weight_in_lbs / 2.2").as("weight_in_kgs_2")
   )
 
-
 }
